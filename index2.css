@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(10, 39, 9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+*{
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+    max-width: 50rem;
+    margin: 2rem;
+    padding:0px 2rem;
+    border:1px dashed;  
+    }
+.main-heading{
+    font-size: 30px;
+    color: cyan;
+    text-align: center;
+    font-weight: 100;
+    font-family:cursive;
+    font-style: italic;
+}
+.form-control{
+    display:flex;
+    flex-direction: column;
+}
+.field-head{
+    font-size: 2rem;
+    color: chartreuse;
+}
+.form-control-input{
+    font-size: 1.5rem;
+    padding: 0.4rem 0px;
+    text-indent: 0.5rem;
+    border: none;
+    outline: 1px solid;
+    border-radius: 7px;
+    width: 80%;
+    color:crimson;
+    background-color: aquamarine;
+
+}
+.field-input{
+    display: flex;
+    gap: 10px;
+}
+.field-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+button{
+    font-size: 2rem;
+    font-style: italic;
+    font-family: fantasy;
+    font-weight: 100;
+    margin: 0px auto;
+    display: block;
+    color: rgb(43, 255, 0);
+    padding: 0.5rem 0.8rem;
+    border: 1px solid crimson;
+    background-color: aquamarine;
+    box-shadow: 1px azure;
+}
